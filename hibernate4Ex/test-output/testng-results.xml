@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1339" started-at="2015-02-26T09:59:41Z" finished-at="2015-02-26T09:59:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1339" started-at="2015-02-26T09:59:41Z" finished-at="2015-02-26T09:59:42Z">
+      <class name="hibernate.RankingServiceTest">
+        <test-method status="PASS" signature="removeRanking()[pri:0, instance:hibernate.RankingServiceTest@7516a69b]" name="removeRanking" duration-ms="1325" started-at="2015-02-26T20:59:41Z" finished-at="2015-02-26T20:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRanking -->
+      </class> <!-- hibernate.RankingServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

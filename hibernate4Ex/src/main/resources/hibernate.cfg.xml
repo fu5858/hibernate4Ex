@@ -18,9 +18,13 @@
 
     <!-- JDBC connection pool (use the built-in) -->
     <property name="connection.pool_size">1</property>
+    <!-- 
+     -->
     
     <!-- JDBC connection pool timeout setting -->
+    <!-- 
     <property name="c3p0.timeout">10</property>
+     -->
 
     <!-- SQL dialect -->
     <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
@@ -38,5 +42,10 @@
     <property name="hbm2ddl.auto">create-drop</property>
     
     <mapping class="au.com.aussie.hibernate.domain.Message"/>
+    <mapping class="au.com.aussie.hibernate.domain.Person"/>
+    <mapping class="au.com.aussie.hibernate.domain.Skill"/>
+    <mapping class="au.com.aussie.hibernate.domain.Ranking"/>
+    <!-- 
+     -->
   </session-factory>
 </hibernate-configuration>
