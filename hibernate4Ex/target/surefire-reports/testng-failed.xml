@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="chapter10.CriteriaTest">
+        <methods>
+          <include name="testSortingResult"/>
+          <include name="testLikeCriteria"/>
+          <include name="testPagingResult"/>
+          <include name="testQueryByExampleForProduct"/>
+          <include name="testQueryByExampleForSupplier"/>
+        </methods>
+      </class> <!-- chapter10.CriteriaTest -->
+      <class name="chapter12.MongodbTest">
+        <methods>
+          <include name="testCR"/>
+        </methods>
+      </class> <!-- chapter12.MongodbTest -->
+      <class name="chapter07.validated.CoordinateTest">
+        <methods>
+          <include name="testVaildCoordinate"/>
+          <include name="testInvalidCoordinate"/>
+        </methods>
+      </class> <!-- chapter07.validated.CoordinateTest -->
+      <class name="chapter04.broken.MappingBrokenTest">
+        <methods>
+          <include name="testBrokenInversionCode"/>
+          <include name="testProperSimpleInversionCode"/>
+        </methods>
+      </class> <!-- chapter04.broken.MappingBrokenTest -->
+      <class name="chapter03.hibernate.PersistenceTest">
+        <methods>
+          <include name="readMessage"/>
+          <include name="setUp"/>
+          <include name="saveMessage"/>
+        </methods>
+      </class> <!-- chapter03.hibernate.PersistenceTest -->
+      <class name="chapter06.naturalid.NaturalIDTest">
+        <methods>
+          <include name="testLoadByNaturalID"/>
+          <include name="testSimpleNaturalID"/>
+          <include name="testGetByNaturalID"/>
+        </methods>
+      </class> <!-- chapter06.naturalid.NaturalIDTest -->
+      <class name="chapter04.orpahn.OrphanRemovalTest">
+        <methods>
+          <include name="orphanRemovalTest"/>
+        </methods>
+      </class> <!-- chapter04.orpahn.OrphanRemovalTest -->
+      <class name="chapter03.hibernate.PersonTest">
+        <methods>
+          <include name="testSavePerson"/>
+        </methods>
+      </class> <!-- chapter03.hibernate.PersonTest -->
+      <class name="chapter07.validated.ValidatedTest">
+        <methods>
+          <include name="createValidUnderagePerson"/>
+          <include name="createValidPoorFNamePerson"/>
+          <include name="createValidNoFNamePerson"/>
+          <include name="createValidPerson"/>
+        </methods>
+      </class> <!-- chapter07.validated.ValidatedTest -->
+      <class name="chapter07.lifecycle.LifecycleTest">
+        <methods>
+          <include name="testLifeCycle"/>
+        </methods>
+      </class> <!-- chapter07.lifecycle.LifecycleTest -->
+      <class name="chapter04.general.PersistingEntityesTest">
+        <methods>
+          <include name="testSaveOrUpdateEntity"/>
+          <include name="testSavingEntitiesTwice"/>
+          <include name="testRefresh"/>
+          <include name="testMerge"/>
+          <include name="testSaveLoad2"/>
+          <include name="testSaveLoad"/>
+        </methods>
+      </class> <!-- chapter04.general.PersistingEntityesTest -->
+      <class name="chapter03.hibernate.RankingServiceTest">
+        <methods>
+          <include name="findAllRankings"/>
+          <include name="findBestForNonexistentSkill"/>
+          <include name="findBestForSkill"/>
+          <include name="updateNonExistingRanking"/>
+          <include name="removeRanking"/>
+          <include name="updateExistingRanking"/>
+          <include name="findAllRankingsEmptySet"/>
+          <include name="addRanking"/>
+        </methods>
+      </class> <!-- chapter03.hibernate.RankingServiceTest -->
+      <class name="chapter04.mapped.AssociationTest">
+        <methods>
+          <include name="ImpliedRelationship"/>
+        </methods>
+      </class> <!-- chapter04.mapped.AssociationTest -->
+      <class name="chapter09.QueryTest">
+        <methods>
+          <include name="testNamedQuery"/>
+          <include name="testSimpleQuery"/>
+        </methods>
+      </class> <!-- chapter09.QueryTest -->
+      <class name="chapter07.jpasession.JPASessionTest">
+        <methods>
+          <include name="testSession"/>
+          <include name="getSession"/>
+          <include name="testEntityManager"/>
+          <include name="nonexistentEntityManagerName"/>
+          <include name="nonexistentSession"/>
+          <include name="getEntityManager"/>
+        </methods>
+      </class> <!-- chapter07.jpasession.JPASessionTest -->
+      <class name="chapter12.InfinispanTest">
+        <methods>
+          <include name="testCR"/>
+        </methods>
+      </class> <!-- chapter12.InfinispanTest -->
+      <class name="chapter03.hibernate.RankingTest">
+        <methods>
+          <include name="testRankings"/>
+          <include name="removeRanking"/>
+          <include name="changeRangking"/>
+          <include name="testSaveRanking"/>
+        </methods>
+      </class> <!-- chapter03.hibernate.RankingTest -->
+      <class name="chapter03.hibernate.SkillTest">
+        <methods>
+          <include name="testSaveSkill"/>
+        </methods>
+      </class> <!-- chapter03.hibernate.SkillTest -->
+      <class name="chapter03.hibernate.ModelTest">
+        <methods>
+          <include name="testModelCreation"/>
+        </methods>
+      </class> <!-- chapter03.hibernate.ModelTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

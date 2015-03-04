@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="59" failed="0" total="59" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="23" started-at="2015-03-04T13:36:27Z" finished-at="2015-03-04T13:36:27Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23" started-at="2015-03-04T13:36:27Z" finished-at="2015-03-04T13:36:27Z">
+      <class name="chapter03.hibernate.ModelTest">
+        <test-method status="SKIP" signature="testModelCreation()[pri:0, instance:chapter03.hibernate.ModelTest@498665a0]" name="testModelCreation" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelCreation -->
+      </class> <!-- chapter03.hibernate.ModelTest -->
+      <class name="chapter12.InfinispanTest">
+        <test-method status="SKIP" signature="clearInfinispan()[pri:0, instance:chapter12.InfinispanTest@2ad313e6]" name="clearInfinispan" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearInfinispan -->
+        <test-method status="SKIP" signature="testCR()[pri:0, instance:chapter12.InfinispanTest@2ad313e6]" name="testCR" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCR -->
+      </class> <!-- chapter12.InfinispanTest -->
+      <class name="chapter09.QueryTest">
+        <test-method status="SKIP" signature="testSimpleQuery()[pri:0, instance:chapter09.QueryTest@25648263]" name="testSimpleQuery" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleQuery -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:chapter09.QueryTest@25648263]" name="closeSession" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="populateData()[pri:0, instance:chapter09.QueryTest@25648263]" name="populateData" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateData -->
+        <test-method status="SKIP" signature="populateData()[pri:0, instance:chapter09.QueryTest@25648263]" name="populateData" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateData -->
+        <test-method status="SKIP" signature="testNamedQuery()[pri:0, instance:chapter09.QueryTest@25648263]" name="testNamedQuery" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNamedQuery -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:chapter09.QueryTest@25648263]" name="closeSession" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- chapter09.QueryTest -->
+      <class name="chapter04.orpahn.OrphanRemovalTest">
+        <test-method status="SKIP" signature="orphanRemovalTest()[pri:0, instance:chapter04.orpahn.OrphanRemovalTest@6a7499e3]" name="orphanRemovalTest" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orphanRemovalTest -->
+      </class> <!-- chapter04.orpahn.OrphanRemovalTest -->
+      <class name="chapter03.hibernate.RankingServiceTest">
+        <test-method status="SKIP" signature="findAllRankingsEmptySet()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="findAllRankingsEmptySet" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllRankingsEmptySet -->
+        <test-method status="SKIP" signature="findBestForSkill()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="findBestForSkill" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBestForSkill -->
+        <test-method status="SKIP" signature="findBestForNonexistentSkill()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="findBestForNonexistentSkill" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBestForNonexistentSkill -->
+        <test-method status="SKIP" signature="addRanking()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="addRanking" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRanking -->
+        <test-method status="SKIP" signature="findAllRankings()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="findAllRankings" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllRankings -->
+        <test-method status="SKIP" signature="removeRanking()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="removeRanking" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRanking -->
+        <test-method status="SKIP" signature="updateExistingRanking()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="updateExistingRanking" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingRanking -->
+        <test-method status="SKIP" signature="updateNonExistingRanking()[pri:0, instance:chapter03.hibernate.RankingServiceTest@1f2c8b2a]" name="updateNonExistingRanking" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNonExistingRanking -->
+      </class> <!-- chapter03.hibernate.RankingServiceTest -->
+      <class name="chapter03.hibernate.RankingTest">
+        <test-method status="SKIP" signature="shutDown()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="shutDown" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="changeRangking()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="changeRangking" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeRangking -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testSaveRanking()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="testSaveRanking" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveRanking -->
+        <test-method status="SKIP" signature="shutDown()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="shutDown" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="shutDown()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="shutDown" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="SKIP" signature="removeRanking()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="removeRanking" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRanking -->
+        <test-method status="SKIP" signature="testRankings()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="testRankings" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRankings -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="shutDown()[pri:0, instance:chapter03.hibernate.RankingTest@76531d2a]" name="shutDown" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- chapter03.hibernate.RankingTest -->
+      <class name="chapter03.hibernate.PersistenceTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:chapter03.hibernate.PersistenceTest@5ab785fe]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:26Z" finished-at="2015-03-05T00:36:26Z">
+          <exception class="java.util.ServiceConfigurationError">
+            <message>
+              <![CDATA[org.hibernate.integrator.spi.Integrator: Provider org.hibernate.ogm.service.impl.OgmIntegrator could not be instantiated: java.lang.NoClassDefFoundError: org/hibernate/boot/registry/StandardServiceInitiator]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.ServiceConfigurationError: org.hibernate.integrator.spi.Integrator: Provider org.hibernate.ogm.service.impl.OgmIntegrator could not be instantiated: java.lang.NoClassDefFoundError: org/hibernate/boot/registry/StandardServiceInitiator
+	at java.util.ServiceLoader.fail(ServiceLoader.java:224)
+	at java.util.ServiceLoader.access$100(ServiceLoader.java:181)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:377)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:445)
+	at org.hibernate.service.classloading.internal.ClassLoaderServiceImpl.loadJavaServices(ClassLoaderServiceImpl.java:246)
+	at org.hibernate.integrator.internal.IntegratorServiceImpl.<init>(IntegratorServiceImpl.java:53)
+	at org.hibernate.service.internal.BootstrapServiceRegistryImpl.<init>(BootstrapServiceRegistryImpl.java:105)
+	at org.hibernate.service.internal.BootstrapServiceRegistryImpl.<init>(BootstrapServiceRegistryImpl.java:73)
+	at org.hibernate.service.ServiceRegistryBuilder.<init>(ServiceRegistryBuilder.java:78)
+	at chapter03.hibernate.PersistenceTest.setUp(PersistenceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:552)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.NoClassDefFoundError: org/hibernate/boot/registry/StandardServiceInitiator
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2483)
+	at java.lang.Class.getConstructor0(Class.java:2793)
+	at java.lang.Class.newInstance(Class.java:345)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:373)
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.boot.registry.StandardServiceInitiator
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.ServiceConfigurationError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="saveMessage()[pri:0, instance:chapter03.hibernate.PersistenceTest@5ab785fe]" name="saveMessage" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveMessage -->
+        <test-method status="SKIP" signature="readMessage()[pri:0, instance:chapter03.hibernate.PersistenceTest@5ab785fe]" name="readMessage" duration-ms="0" started-at="2015-03-05T00:36:27Z" depends-on-methods="chapter03.hibernate.PersistenceTest.saveMessage" finished-at="2015-03-05T00:36:27Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PersistenceTest.readMessage()[pri:0, instance:chapter03.hibernate.PersistenceTest@5ab785fe] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PersistenceTest.readMessage()[pri:0, instance:chapter03.hibernate.PersistenceTest@5ab785fe] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1099)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessage -->
+      </class> <!-- chapter03.hibernate.PersistenceTest -->
+      <class name="chapter04.mapped.AssociationTest">
+        <test-method status="SKIP" signature="ImpliedRelationship()[pri:0, instance:chapter04.mapped.AssociationTest@5fd51845]" name="ImpliedRelationship" duration-ms="1" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImpliedRelationship -->
+      </class> <!-- chapter04.mapped.AssociationTest -->
+      <class name="chapter06.naturalid.NaturalIDTest">
+        <test-method status="SKIP" signature="testGetByNaturalID()[pri:0, instance:chapter06.naturalid.NaturalIDTest@17ef771b]" name="testGetByNaturalID" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetByNaturalID -->
+        <test-method status="SKIP" signature="testLoadByNaturalID()[pri:0, instance:chapter06.naturalid.NaturalIDTest@17ef771b]" name="testLoadByNaturalID" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadByNaturalID -->
+        <test-method status="SKIP" signature="testSimpleNaturalID()[pri:0, instance:chapter06.naturalid.NaturalIDTest@17ef771b]" name="testSimpleNaturalID" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleNaturalID -->
+      </class> <!-- chapter06.naturalid.NaturalIDTest -->
+      <class name="chapter03.hibernate.SkillTest">
+        <test-method status="SKIP" signature="shutDown()[pri:0, instance:chapter03.hibernate.SkillTest@4a9fed16]" name="shutDown" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="SKIP" signature="testSaveSkill()[pri:0, instance:chapter03.hibernate.SkillTest@4a9fed16]" name="testSaveSkill" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveSkill -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:chapter03.hibernate.SkillTest@4a9fed16]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- chapter03.hibernate.SkillTest -->
+      <class name="chapter07.jpasession.JPASessionTest">
+        <test-method status="SKIP" signature="getEntityManager()[pri:0, instance:chapter07.jpasession.JPASessionTest@2cd652c1]" name="getEntityManager" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEntityManager -->
+        <test-method status="SKIP" signature="nonexistentSession()[pri:0, instance:chapter07.jpasession.JPASessionTest@2cd652c1]" name="nonexistentSession" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonexistentSession -->
+        <test-method status="SKIP" signature="testEntityManager()[pri:0, instance:chapter07.jpasession.JPASessionTest@2cd652c1]" name="testEntityManager" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEntityManager -->
+        <test-method status="SKIP" signature="nonexistentEntityManagerName()[pri:0, instance:chapter07.jpasession.JPASessionTest@2cd652c1]" name="nonexistentEntityManagerName" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonexistentEntityManagerName -->
+        <test-method status="SKIP" signature="getSession()[pri:0, instance:chapter07.jpasession.JPASessionTest@2cd652c1]" name="getSession" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSession -->
+        <test-method status="SKIP" signature="testSession()[pri:0, instance:chapter07.jpasession.JPASessionTest@2cd652c1]" name="testSession" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSession -->
+      </class> <!-- chapter07.jpasession.JPASessionTest -->
+      <class name="chapter07.lifecycle.LifecycleTest">
+        <test-method status="SKIP" signature="testLifeCycle()[pri:0, instance:chapter07.lifecycle.LifecycleTest@782ed8df]" name="testLifeCycle" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLifeCycle -->
+      </class> <!-- chapter07.lifecycle.LifecycleTest -->
+      <class name="chapter12.MongodbTest">
+        <test-method status="SKIP" signature="testCR()[pri:0, instance:chapter12.MongodbTest@313e9bda]" name="testCR" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCR -->
+        <test-method status="SKIP" signature="clearDB()[pri:0, instance:chapter12.MongodbTest@313e9bda]" name="clearDB" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearDB -->
+      </class> <!-- chapter12.MongodbTest -->
+      <class name="chapter04.general.PersistingEntityesTest">
+        <test-method status="SKIP" signature="testMerge()[pri:0, instance:chapter04.general.PersistingEntityesTest@5cd20346]" name="testMerge" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMerge -->
+        <test-method status="SKIP" signature="testSaveOrUpdateEntity()[pri:0, instance:chapter04.general.PersistingEntityesTest@5cd20346]" name="testSaveOrUpdateEntity" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveOrUpdateEntity -->
+        <test-method status="SKIP" signature="testSaveLoad2()[pri:0, instance:chapter04.general.PersistingEntityesTest@5cd20346]" name="testSaveLoad2" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveLoad2 -->
+        <test-method status="SKIP" signature="testSaveLoad()[pri:0, instance:chapter04.general.PersistingEntityesTest@5cd20346]" name="testSaveLoad" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveLoad -->
+        <test-method status="SKIP" signature="testRefresh()[pri:0, instance:chapter04.general.PersistingEntityesTest@5cd20346]" name="testRefresh" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefresh -->
+        <test-method status="SKIP" signature="testSavingEntitiesTwice()[pri:0, instance:chapter04.general.PersistingEntityesTest@5cd20346]" name="testSavingEntitiesTwice" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSavingEntitiesTwice -->
+      </class> <!-- chapter04.general.PersistingEntityesTest -->
+      <class name="chapter07.validated.CoordinateTest">
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="1" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+        <test-method status="SKIP" signature="testInvalidCoordinate()[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testInvalidCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCoordinate -->
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+        <test-method status="SKIP" signature="testVaildCoordinate(java.lang.Integer, java.lang.Integer)[pri:0, instance:chapter07.validated.CoordinateTest@3af1d485]" name="testVaildCoordinate" duration-ms="0" started-at="2015-03-05T00:36:27Z" data-provider="validCoordinates" finished-at="2015-03-05T00:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaildCoordinate -->
+      </class> <!-- chapter07.validated.CoordinateTest -->
+      <class name="chapter10.CriteriaTest">
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="closeSession" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="populateData()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="populateData" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateData -->
+        <test-method status="SKIP" signature="testPagingResult()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="testPagingResult" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPagingResult -->
+        <test-method status="SKIP" signature="populateData()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="populateData" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateData -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="closeSession" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="populateData()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="populateData" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateData -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="closeSession" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="testSortingResult()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="testSortingResult" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingResult -->
+        <test-method status="SKIP" signature="testQueryByExampleForProduct()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="testQueryByExampleForProduct" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueryByExampleForProduct -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="closeSession" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="closeSession" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="testQueryByExampleForSupplier()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="testQueryByExampleForSupplier" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueryByExampleForSupplier -->
+        <test-method status="SKIP" signature="populateData()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="populateData" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateData -->
+        <test-method status="SKIP" signature="populateData()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="populateData" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateData -->
+        <test-method status="SKIP" signature="testLikeCriteria()[pri:0, instance:chapter10.CriteriaTest@20c7afdd]" name="testLikeCriteria" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLikeCriteria -->
+      </class> <!-- chapter10.CriteriaTest -->
+      <class name="chapter04.broken.MappingBrokenTest">
+        <test-method status="SKIP" signature="testBrokenInversionCode()[pri:0, instance:chapter04.broken.MappingBrokenTest@46be1539]" name="testBrokenInversionCode" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrokenInversionCode -->
+        <test-method status="SKIP" signature="testProperSimpleInversionCode()[pri:0, instance:chapter04.broken.MappingBrokenTest@46be1539]" name="testProperSimpleInversionCode" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProperSimpleInversionCode -->
+      </class> <!-- chapter04.broken.MappingBrokenTest -->
+      <class name="chapter07.validated.ValidatedTest">
+        <test-method status="SKIP" signature="createValidNoFNamePerson()[pri:0, instance:chapter07.validated.ValidatedTest@76c0fd31]" name="createValidNoFNamePerson" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidNoFNamePerson -->
+        <test-method status="SKIP" signature="createValidUnderagePerson()[pri:0, instance:chapter07.validated.ValidatedTest@76c0fd31]" name="createValidUnderagePerson" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidUnderagePerson -->
+        <test-method status="SKIP" signature="createValidPerson()[pri:0, instance:chapter07.validated.ValidatedTest@76c0fd31]" name="createValidPerson" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidPerson -->
+        <test-method status="SKIP" signature="createValidPoorFNamePerson()[pri:0, instance:chapter07.validated.ValidatedTest@76c0fd31]" name="createValidPoorFNamePerson" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidPoorFNamePerson -->
+      </class> <!-- chapter07.validated.ValidatedTest -->
+      <class name="chapter03.hibernate.PersonTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:chapter03.hibernate.PersonTest@d233caf]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testSavePerson()[pri:0, instance:chapter03.hibernate.PersonTest@d233caf]" name="testSavePerson" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSavePerson -->
+        <test-method status="SKIP" signature="shutDown()[pri:0, instance:chapter03.hibernate.PersonTest@d233caf]" name="shutDown" is-config="true" duration-ms="0" started-at="2015-03-05T00:36:27Z" finished-at="2015-03-05T00:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- chapter03.hibernate.PersonTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

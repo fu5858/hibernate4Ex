@@ -1,0 +1,2 @@
+/*C3*/SET SCHEMA PUBLIC
+alter table Email drop constraint FK_67x13mxfbeaq4clfax1t2unlw

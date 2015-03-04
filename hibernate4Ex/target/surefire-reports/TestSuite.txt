@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 88, Failures: 1, Errors: 0, Skipped: 87, Time elapsed: 1.616 sec <<< FAILURE!
+setUp(chapter03.hibernate.PersistenceTest)  Time elapsed: 1.085 sec  <<< FAILURE!
+java.util.ServiceConfigurationError: org.hibernate.integrator.spi.Integrator: Provider org.hibernate.ogm.service.impl.OgmIntegrator could not be instantiated: java.lang.NoClassDefFoundError: org/hibernate/boot/registry/StandardServiceInitiator
+	at java.util.ServiceLoader.fail(ServiceLoader.java:224)
+	at java.util.ServiceLoader.access$100(ServiceLoader.java:181)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:377)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:445)
+	at org.hibernate.service.classloading.internal.ClassLoaderServiceImpl.loadJavaServices(ClassLoaderServiceImpl.java:246)
+	at org.hibernate.integrator.internal.IntegratorServiceImpl.<init>(IntegratorServiceImpl.java:53)
+	at org.hibernate.service.internal.BootstrapServiceRegistryImpl.<init>(BootstrapServiceRegistryImpl.java:105)
+	at org.hibernate.service.internal.BootstrapServiceRegistryImpl.<init>(BootstrapServiceRegistryImpl.java:73)
+	at org.hibernate.service.ServiceRegistryBuilder.<init>(ServiceRegistryBuilder.java:78)
+	at chapter03.hibernate.PersistenceTest.setUp(PersistenceTest.java:26)
+Caused by: java.lang.NoClassDefFoundError: org/hibernate/boot/registry/StandardServiceInitiator
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2483)
+	at java.lang.Class.getConstructor0(Class.java:2793)
+	at java.lang.Class.newInstance(Class.java:345)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:373)
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.boot.registry.StandardServiceInitiator
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 40 more
+

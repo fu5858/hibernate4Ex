@@ -1,0 +1,1653 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-skipped">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">59 methods,  59 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.mapped.AssociationTest" hash-for-method="ImpliedRelationship">ImpliedRelationship</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="addRanking">addRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="changeRangking">changeRangking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.ValidatedTest" hash-for-method="createValidNoFNamePerson">createValidNoFNamePerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.ValidatedTest" hash-for-method="createValidPerson">createValidPerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.ValidatedTest" hash-for-method="createValidPoorFNamePerson">createValidPoorFNamePerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.ValidatedTest" hash-for-method="createValidUnderagePerson">createValidUnderagePerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="findAllRankings">findAllRankings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="findAllRankingsEmptySet">findAllRankingsEmptySet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="findBestForNonexistentSkill">findBestForNonexistentSkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="findBestForSkill">findBestForSkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.jpasession.JPASessionTest" hash-for-method="getEntityManager">getEntityManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.jpasession.JPASessionTest" hash-for-method="getSession">getSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.jpasession.JPASessionTest" hash-for-method="nonexistentEntityManagerName">nonexistentEntityManagerName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.jpasession.JPASessionTest" hash-for-method="nonexistentSession">nonexistentSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.orpahn.OrphanRemovalTest" hash-for-method="orphanRemovalTest">orphanRemovalTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.PersistenceTest" hash-for-method="readMessage">readMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="removeRanking">removeRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="removeRanking">removeRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.PersistenceTest" hash-for-method="saveMessage">saveMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.broken.MappingBrokenTest" hash-for-method="testBrokenInversionCode">testBrokenInversionCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter12.MongodbTest" hash-for-method="testCR">testCR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter12.InfinispanTest" hash-for-method="testCR">testCR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.jpasession.JPASessionTest" hash-for-method="testEntityManager">testEntityManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter06.naturalid.NaturalIDTest" hash-for-method="testGetByNaturalID">testGetByNaturalID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testInvalidCoordinate">testInvalidCoordinate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.lifecycle.LifecycleTest" hash-for-method="testLifeCycle">testLifeCycle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter10.CriteriaTest" hash-for-method="testLikeCriteria">testLikeCriteria</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter06.naturalid.NaturalIDTest" hash-for-method="testLoadByNaturalID">testLoadByNaturalID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.general.PersistingEntityesTest" hash-for-method="testMerge">testMerge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.ModelTest" hash-for-method="testModelCreation">testModelCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter09.QueryTest" hash-for-method="testNamedQuery">testNamedQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter10.CriteriaTest" hash-for-method="testPagingResult">testPagingResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.broken.MappingBrokenTest" hash-for-method="testProperSimpleInversionCode">testProperSimpleInversionCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter10.CriteriaTest" hash-for-method="testQueryByExampleForProduct">testQueryByExampleForProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter10.CriteriaTest" hash-for-method="testQueryByExampleForSupplier">testQueryByExampleForSupplier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="testRankings">testRankings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.general.PersistingEntityesTest" hash-for-method="testRefresh">testRefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.general.PersistingEntityesTest" hash-for-method="testSaveLoad">testSaveLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.general.PersistingEntityesTest" hash-for-method="testSaveLoad2">testSaveLoad2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.general.PersistingEntityesTest" hash-for-method="testSaveOrUpdateEntity">testSaveOrUpdateEntity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.PersonTest" hash-for-method="testSavePerson">testSavePerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="testSaveRanking">testSaveRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.SkillTest" hash-for-method="testSaveSkill">testSaveSkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter04.general.PersistingEntityesTest" hash-for-method="testSavingEntitiesTwice">testSavingEntitiesTwice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.jpasession.JPASessionTest" hash-for-method="testSession">testSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter06.naturalid.NaturalIDTest" hash-for-method="testSimpleNaturalID">testSimpleNaturalID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter09.QueryTest" hash-for-method="testSimpleQuery">testSimpleQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter10.CriteriaTest" hash-for-method="testSortingResult">testSortingResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(-1, 1)">testVaildCoordinate(-1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(1, 1)">testVaildCoordinate(1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(0, 1)">testVaildCoordinate(0, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(0, -1)">testVaildCoordinate(0, -1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(1, 0)">testVaildCoordinate(1, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(-1, 0)">testVaildCoordinate(-1, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(0, 0)">testVaildCoordinate(0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter07.validated.CoordinateTest" hash-for-method="testVaildCoordinate(1, -1)">testVaildCoordinate(1, -1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="updateExistingRanking">updateExistingRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingServiceTest" hash-for-method="updateNonExistingRanking">updateNonExistingRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter10.CriteriaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLikeCriteria">
+                  </a> <!-- testLikeCriteria -->
+                  <span class="method-name">testLikeCriteria</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPagingResult">
+                  </a> <!-- testPagingResult -->
+                  <span class="method-name">testPagingResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testQueryByExampleForProduct">
+                  </a> <!-- testQueryByExampleForProduct -->
+                  <span class="method-name">testQueryByExampleForProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testQueryByExampleForSupplier">
+                  </a> <!-- testQueryByExampleForSupplier -->
+                  <span class="method-name">testQueryByExampleForSupplier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortingResult">
+                  </a> <!-- testSortingResult -->
+                  <span class="method-name">testSortingResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter12.MongodbTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCR">
+                  </a> <!-- testCR -->
+                  <span class="method-name">testCR</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter07.validated.CoordinateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidCoordinate">
+                  </a> <!-- testInvalidCoordinate -->
+                  <span class="method-name">testInvalidCoordinate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(-1, 1)">
+                  </a> <!-- testVaildCoordinate(-1, 1) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(-1, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(1, 1)">
+                  </a> <!-- testVaildCoordinate(1, 1) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(1, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(0, 1)">
+                  </a> <!-- testVaildCoordinate(0, 1) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(0, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(0, -1)">
+                  </a> <!-- testVaildCoordinate(0, -1) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(0, -1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(1, 0)">
+                  </a> <!-- testVaildCoordinate(1, 0) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(1, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(-1, 0)">
+                  </a> <!-- testVaildCoordinate(-1, 0) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(-1, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(0, 0)">
+                  </a> <!-- testVaildCoordinate(0, 0) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVaildCoordinate(1, -1)">
+                  </a> <!-- testVaildCoordinate(1, -1) -->
+                  <span class="method-name">testVaildCoordinate</span>
+                  <span class="parameters">(1, -1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter04.broken.MappingBrokenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBrokenInversionCode">
+                  </a> <!-- testBrokenInversionCode -->
+                  <span class="method-name">testBrokenInversionCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProperSimpleInversionCode">
+                  </a> <!-- testProperSimpleInversionCode -->
+                  <span class="method-name">testProperSimpleInversionCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter03.hibernate.PersistenceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readMessage">
+                  </a> <!-- readMessage -->
+                  <span class="method-name">readMessage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method PersistenceTest.readMessage()[pri:0, instance:chapter03.hibernate.PersistenceTest@5ab785fe] depends on not successfully finished methods
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveMessage">
+                  </a> <!-- saveMessage -->
+                  <span class="method-name">saveMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter06.naturalid.NaturalIDTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetByNaturalID">
+                  </a> <!-- testGetByNaturalID -->
+                  <span class="method-name">testGetByNaturalID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoadByNaturalID">
+                  </a> <!-- testLoadByNaturalID -->
+                  <span class="method-name">testLoadByNaturalID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleNaturalID">
+                  </a> <!-- testSimpleNaturalID -->
+                  <span class="method-name">testSimpleNaturalID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter04.orpahn.OrphanRemovalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orphanRemovalTest">
+                  </a> <!-- orphanRemovalTest -->
+                  <span class="method-name">orphanRemovalTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter03.hibernate.PersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSavePerson">
+                  </a> <!-- testSavePerson -->
+                  <span class="method-name">testSavePerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter07.validated.ValidatedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createValidNoFNamePerson">
+                  </a> <!-- createValidNoFNamePerson -->
+                  <span class="method-name">createValidNoFNamePerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createValidPerson">
+                  </a> <!-- createValidPerson -->
+                  <span class="method-name">createValidPerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createValidPoorFNamePerson">
+                  </a> <!-- createValidPoorFNamePerson -->
+                  <span class="method-name">createValidPoorFNamePerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createValidUnderagePerson">
+                  </a> <!-- createValidUnderagePerson -->
+                  <span class="method-name">createValidUnderagePerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter07.lifecycle.LifecycleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLifeCycle">
+                  </a> <!-- testLifeCycle -->
+                  <span class="method-name">testLifeCycle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter04.general.PersistingEntityesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMerge">
+                  </a> <!-- testMerge -->
+                  <span class="method-name">testMerge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRefresh">
+                  </a> <!-- testRefresh -->
+                  <span class="method-name">testRefresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveLoad">
+                  </a> <!-- testSaveLoad -->
+                  <span class="method-name">testSaveLoad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveLoad2">
+                  </a> <!-- testSaveLoad2 -->
+                  <span class="method-name">testSaveLoad2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveOrUpdateEntity">
+                  </a> <!-- testSaveOrUpdateEntity -->
+                  <span class="method-name">testSaveOrUpdateEntity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSavingEntitiesTwice">
+                  </a> <!-- testSavingEntitiesTwice -->
+                  <span class="method-name">testSavingEntitiesTwice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter09.QueryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNamedQuery">
+                  </a> <!-- testNamedQuery -->
+                  <span class="method-name">testNamedQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleQuery">
+                  </a> <!-- testSimpleQuery -->
+                  <span class="method-name">testSimpleQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter03.hibernate.RankingServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addRanking">
+                  </a> <!-- addRanking -->
+                  <span class="method-name">addRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findAllRankings">
+                  </a> <!-- findAllRankings -->
+                  <span class="method-name">findAllRankings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findAllRankingsEmptySet">
+                  </a> <!-- findAllRankingsEmptySet -->
+                  <span class="method-name">findAllRankingsEmptySet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findBestForNonexistentSkill">
+                  </a> <!-- findBestForNonexistentSkill -->
+                  <span class="method-name">findBestForNonexistentSkill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findBestForSkill">
+                  </a> <!-- findBestForSkill -->
+                  <span class="method-name">findBestForSkill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeRanking">
+                  </a> <!-- removeRanking -->
+                  <span class="method-name">removeRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingRanking">
+                  </a> <!-- updateExistingRanking -->
+                  <span class="method-name">updateExistingRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateNonExistingRanking">
+                  </a> <!-- updateNonExistingRanking -->
+                  <span class="method-name">updateNonExistingRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter04.mapped.AssociationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ImpliedRelationship">
+                  </a> <!-- ImpliedRelationship -->
+                  <span class="method-name">ImpliedRelationship</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter07.jpasession.JPASessionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getEntityManager">
+                  </a> <!-- getEntityManager -->
+                  <span class="method-name">getEntityManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSession">
+                  </a> <!-- getSession -->
+                  <span class="method-name">getSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nonexistentEntityManagerName">
+                  </a> <!-- nonexistentEntityManagerName -->
+                  <span class="method-name">nonexistentEntityManagerName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nonexistentSession">
+                  </a> <!-- nonexistentSession -->
+                  <span class="method-name">nonexistentSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEntityManager">
+                  </a> <!-- testEntityManager -->
+                  <span class="method-name">testEntityManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSession">
+                  </a> <!-- testSession -->
+                  <span class="method-name">testSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter12.InfinispanTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCR">
+                  </a> <!-- testCR -->
+                  <span class="method-name">testCR</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter03.hibernate.RankingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeRangking">
+                  </a> <!-- changeRangking -->
+                  <span class="method-name">changeRangking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeRanking">
+                  </a> <!-- removeRanking -->
+                  <span class="method-name">removeRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRankings">
+                  </a> <!-- testRankings -->
+                  <span class="method-name">testRankings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveRanking">
+                  </a> <!-- testSaveRanking -->
+                  <span class="method-name">testSaveRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter03.hibernate.ModelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testModelCreation">
+                  </a> <!-- testModelCreation -->
+                  <span class="method-name">testModelCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">chapter03.hibernate.SkillTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveSkill">
+                  </a> <!-- testSaveSkill -->
+                  <span class="method-name">testSaveSkill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;chapter03.hibernate.ModelTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.hibernate.PersistenceTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.hibernate.PersonTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.hibernate.RankingServiceTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.hibernate.RankingTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.hibernate.SkillTest&quot;/&gt;
+      &lt;class name=&quot;chapter04.broken.MappingBrokenTest&quot;/&gt;
+      &lt;class name=&quot;chapter04.general.PersistingEntityesTest&quot;/&gt;
+      &lt;class name=&quot;chapter04.mapped.AssociationTest&quot;/&gt;
+      &lt;class name=&quot;chapter04.orpahn.OrphanRemovalTest&quot;/&gt;
+      &lt;class name=&quot;chapter06.naturalid.NaturalIDTest&quot;/&gt;
+      &lt;class name=&quot;chapter07.jpasession.JPASessionTest&quot;/&gt;
+      &lt;class name=&quot;chapter07.lifecycle.LifecycleTest&quot;/&gt;
+      &lt;class name=&quot;chapter07.validated.CoordinateTest&quot;/&gt;
+      &lt;class name=&quot;chapter07.validated.ValidatedTest&quot;/&gt;
+      &lt;class name=&quot;chapter09.QueryTest&quot;/&gt;
+      &lt;class name=&quot;chapter10.CriteriaTest&quot;/&gt;
+      &lt;class name=&quot;chapter12.BaseOGMTest&quot;/&gt;
+      &lt;class name=&quot;chapter12.InfinispanTest&quot;/&gt;
+      &lt;class name=&quot;chapter12.MongodbTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (20 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(59);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ImpliedRelationship')
+data.setCell(0, 2, 'chapter04.mapped.AssociationTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testVaildCoordinate')
+data.setCell(1, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCR')
+data.setCell(2, 2, 'chapter12.MongodbTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testEntityManager')
+data.setCell(3, 2, 'chapter07.jpasession.JPASessionTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testVaildCoordinate')
+data.setCell(4, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testQueryByExampleForProduct')
+data.setCell(5, 2, 'chapter10.CriteriaTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSaveSkill')
+data.setCell(6, 2, 'chapter03.hibernate.SkillTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'nonexistentEntityManagerName')
+data.setCell(7, 2, 'chapter07.jpasession.JPASessionTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updateExistingRanking')
+data.setCell(8, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'findAllRankingsEmptySet')
+data.setCell(9, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetByNaturalID')
+data.setCell(10, 2, 'chapter06.naturalid.NaturalIDTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getEntityManager')
+data.setCell(11, 2, 'chapter07.jpasession.JPASessionTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testVaildCoordinate')
+data.setCell(12, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSavingEntitiesTwice')
+data.setCell(13, 2, 'chapter04.general.PersistingEntityesTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'updateNonExistingRanking')
+data.setCell(14, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'changeRangking')
+data.setCell(15, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testVaildCoordinate')
+data.setCell(16, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'createValidPoorFNamePerson')
+data.setCell(17, 2, 'chapter07.validated.ValidatedTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'nonexistentSession')
+data.setCell(18, 2, 'chapter07.jpasession.JPASessionTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'createValidUnderagePerson')
+data.setCell(19, 2, 'chapter07.validated.ValidatedTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'addRanking')
+data.setCell(20, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testQueryByExampleForSupplier')
+data.setCell(21, 2, 'chapter10.CriteriaTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testRankings')
+data.setCell(22, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'orphanRemovalTest')
+data.setCell(23, 2, 'chapter04.orpahn.OrphanRemovalTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getSession')
+data.setCell(24, 2, 'chapter07.jpasession.JPASessionTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'removeRanking')
+data.setCell(25, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testSaveLoad')
+data.setCell(26, 2, 'chapter04.general.PersistingEntityesTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'readMessage')
+data.setCell(27, 2, 'chapter03.hibernate.PersistenceTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'createValidNoFNamePerson')
+data.setCell(28, 2, 'chapter07.validated.ValidatedTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'removeRanking')
+data.setCell(29, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testSavePerson')
+data.setCell(30, 2, 'chapter03.hibernate.PersonTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testRefresh')
+data.setCell(31, 2, 'chapter04.general.PersistingEntityesTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testVaildCoordinate')
+data.setCell(32, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testVaildCoordinate')
+data.setCell(33, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testBrokenInversionCode')
+data.setCell(34, 2, 'chapter04.broken.MappingBrokenTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testLifeCycle')
+data.setCell(35, 2, 'chapter07.lifecycle.LifecycleTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testSaveOrUpdateEntity')
+data.setCell(36, 2, 'chapter04.general.PersistingEntityesTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testInvalidCoordinate')
+data.setCell(37, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'createValidPerson')
+data.setCell(38, 2, 'chapter07.validated.ValidatedTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testProperSimpleInversionCode')
+data.setCell(39, 2, 'chapter04.broken.MappingBrokenTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testModelCreation')
+data.setCell(40, 2, 'chapter03.hibernate.ModelTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testLoadByNaturalID')
+data.setCell(41, 2, 'chapter06.naturalid.NaturalIDTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testPagingResult')
+data.setCell(42, 2, 'chapter10.CriteriaTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testSimpleQuery')
+data.setCell(43, 2, 'chapter09.QueryTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testSortingResult')
+data.setCell(44, 2, 'chapter10.CriteriaTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testSaveLoad2')
+data.setCell(45, 2, 'chapter04.general.PersistingEntityesTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'findBestForNonexistentSkill')
+data.setCell(46, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testNamedQuery')
+data.setCell(47, 2, 'chapter09.QueryTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testSession')
+data.setCell(48, 2, 'chapter07.jpasession.JPASessionTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testVaildCoordinate')
+data.setCell(49, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testVaildCoordinate')
+data.setCell(50, 2, 'chapter07.validated.CoordinateTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'saveMessage')
+data.setCell(51, 2, 'chapter03.hibernate.PersistenceTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'findBestForSkill')
+data.setCell(52, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testMerge')
+data.setCell(53, 2, 'chapter04.general.PersistingEntityesTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testSaveRanking')
+data.setCell(54, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'findAllRankings')
+data.setCell(55, 2, 'chapter03.hibernate.RankingServiceTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testCR')
+data.setCell(56, 2, 'chapter12.InfinispanTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testSimpleNaturalID')
+data.setCell(57, 2, 'chapter06.naturalid.NaturalIDTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testLikeCriteria')
+data.setCell(58, 2, 'chapter10.CriteriaTest')
+data.setCell(58, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.PersistenceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter04.mapped.AssociationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ImpliedRelationship</span>
+                <span class="method-start">688 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter07.jpasession.JPASessionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getEntityManager</span>
+                <span class="method-start">689 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter12.InfinispanTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCR</span>
+                <span class="method-start">689 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter07.jpasession.JPASessionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getSession</span>
+                <span class="method-start">690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nonexistentEntityManagerName</span>
+                <span class="method-start">690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nonexistentSession</span>
+                <span class="method-start">690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEntityManager</span>
+                <span class="method-start">690 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter04.broken.MappingBrokenTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBrokenInversionCode</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter06.naturalid.NaturalIDTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetByNaturalID</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter07.lifecycle.LifecycleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLifeCycle</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.ModelTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testModelCreation</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter04.broken.MappingBrokenTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProperSimpleInversionCode</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter07.jpasession.JPASessionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSession</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter04.orpahn.OrphanRemovalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">orphanRemovalTest</span>
+                <span class="method-start">692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.PersistenceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">saveMessage</span>
+                <span class="method-start">692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter06.naturalid.NaturalIDTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoadByNaturalID</span>
+                <span class="method-start">692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter04.general.PersistingEntityesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMerge</span>
+                <span class="method-start">692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter06.naturalid.NaturalIDTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSimpleNaturalID</span>
+                <span class="method-start">692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter04.general.PersistingEntityesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRefresh</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveLoad</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveLoad2</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveOrUpdateEntity</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSavingEntitiesTwice</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter09.QueryTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNamedQuery</span>
+                <span class="method-start">694 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.PersonTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSavePerson</span>
+                <span class="method-start">694 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter09.QueryTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSimpleQuery</span>
+                <span class="method-start">694 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.RankingServiceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addRanking</span>
+                <span class="method-start">695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findAllRankings</span>
+                <span class="method-start">695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findAllRankingsEmptySet</span>
+                <span class="method-start">695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findBestForNonexistentSkill</span>
+                <span class="method-start">695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findBestForSkill</span>
+                <span class="method-start">695 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.RankingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">changeRangking</span>
+                <span class="method-start">696 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.RankingServiceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeRanking</span>
+                <span class="method-start">696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingRanking</span>
+                <span class="method-start">696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateNonExistingRanking</span>
+                <span class="method-start">696 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.RankingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeRanking</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRankings</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveRanking</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter07.validated.ValidatedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createValidNoFNamePerson</span>
+                <span class="method-start">698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createValidPerson</span>
+                <span class="method-start">698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createValidPoorFNamePerson</span>
+                <span class="method-start">698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createValidUnderagePerson</span>
+                <span class="method-start">698 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.SkillTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSaveSkill</span>
+                <span class="method-start">698 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter10.CriteriaTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPagingResult</span>
+                <span class="method-start">699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testQueryByExampleForProduct</span>
+                <span class="method-start">699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortingResult</span>
+                <span class="method-start">699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLikeCriteria</span>
+                <span class="method-start">700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testQueryByExampleForSupplier</span>
+                <span class="method-start">700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter07.validated.CoordinateTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(1, 1)</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(1, 0)</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(-1, 1)</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(0, 1)</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(-1, 0)</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter12.MongodbTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCR</span>
+                <span class="method-start">703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter07.validated.CoordinateTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInvalidCoordinate</span>
+                <span class="method-start">703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(0, -1)</span>
+                <span class="method-start">703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(1, -1)</span>
+                <span class="method-start">703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVaildCoordinate(0, 0)</span>
+                <span class="method-start">703 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
