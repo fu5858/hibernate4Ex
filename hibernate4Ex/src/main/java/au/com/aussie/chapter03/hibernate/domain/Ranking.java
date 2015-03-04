@@ -1,4 +1,4 @@
-package au.com.aussie.hibernate.domain;
+package au.com.aussie.chapter03.hibernate.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package hibernate;
+package chapter03.hibernate;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
@@ -8,9 +8,9 @@ import java.util.Map;
 
 import org.testng.annotations.Test;
 
-import au.com.aussie.hibernate.domain.Person;
-import au.com.aussie.hibernate.service.HibernateRankingService;
-import au.com.aussie.hibernate.service.RankingService;
+import au.com.aussie.chapter03.hibernate.domain.Person;
+import au.com.aussie.chapter03.hibernate.service.HibernateRankingService;
+import au.com.aussie.chapter03.hibernate.service.RankingService;
 
 public class RankingServiceTest {
 

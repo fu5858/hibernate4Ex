@@ -1,4 +1,4 @@
-package au.com.aussie.hibernate.domain;
+package au.com.aussie.chapter03.hibernate.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Skill {
+public class Person {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -16,7 +16,7 @@ public class Skill {
 	@Column
 	private String name;
 
-	public Skill() {}
+	public Person() {}
 
 	public long getId() {
 		return id;
@@ -36,7 +36,8 @@ public class Skill {
 
 	@Override
 	public String toString() {
-		return "Skill [id=" + id + ", name=" + name + "]";
+		return "Person [id=" + id + ", name=" + name + "]";
 	}
+	
 	
 }

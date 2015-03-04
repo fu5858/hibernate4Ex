@@ -1,4 +1,4 @@
-package au.com.aussie.hibernate.domain;
+package au.com.aussie.chapter03.hibernate.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Message {
+public class MessageCh03 {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -16,9 +16,9 @@ public class Message {
 	@Column(nullable=false)
 	String text;
 
-	public Message() {}
+	public MessageCh03() {}
 
-	public Message(String text) {
+	public MessageCh03(String text) {
 		super();
 		this.text = text;
 	}

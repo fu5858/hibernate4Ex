@@ -1,4 +1,4 @@
-package hibernate;
+package chapter03.hibernate;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -10,9 +10,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import au.com.aussie.hibernate.domain.Person;
+import au.com.aussie.chapter03.hibernate.domain.Skill;
 
-public class PersonTest {
+public class SkillTest {
 
 	SessionFactory factory;
 	
@@ -34,16 +34,16 @@ public class PersonTest {
 	}
 	
 	@Test
-	public void testSavePerson(){
+	public void testSaveSkill(){
 		Session session = factory.openSession();
 		Transaction tx = session.beginTransaction();
 		
-		Person person = new Person();
-		person.setName("J. C. Smell");
+		Skill skill = new Skill();
+		skill.setName("java");
 		
-		System.out.println(person);
+		System.out.println(skill);
 		
-		session.save(person);
+		session.save(skill);
 		
 		tx.commit();
 		session.close();

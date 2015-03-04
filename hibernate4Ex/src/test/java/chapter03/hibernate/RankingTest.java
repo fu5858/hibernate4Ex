@@ -1,4 +1,4 @@
-package hibernate;
+package chapter03.hibernate;
 
 
 import static org.testng.Assert.assertNotNull;
@@ -20,13 +20,13 @@ import org.testng.annotations.Test;
 
 import com.mchange.util.AssertException;
 
-import au.com.aussie.hibernate.dao.PersonDAO;
-import au.com.aussie.hibernate.dao.PersonDAOImpl;
-import au.com.aussie.hibernate.dao.SkillDAO;
-import au.com.aussie.hibernate.dao.SkillDAOImpl;
-import au.com.aussie.hibernate.domain.Person;
-import au.com.aussie.hibernate.domain.Ranking;
-import au.com.aussie.hibernate.domain.Skill;
+import au.com.aussie.chapter03.hibernate.dao.PersonDAO;
+import au.com.aussie.chapter03.hibernate.dao.PersonDAOImpl;
+import au.com.aussie.chapter03.hibernate.dao.SkillDAO;
+import au.com.aussie.chapter03.hibernate.dao.SkillDAOImpl;
+import au.com.aussie.chapter03.hibernate.domain.Person;
+import au.com.aussie.chapter03.hibernate.domain.Ranking;
+import au.com.aussie.chapter03.hibernate.domain.Skill;
 
 public class RankingTest {
 

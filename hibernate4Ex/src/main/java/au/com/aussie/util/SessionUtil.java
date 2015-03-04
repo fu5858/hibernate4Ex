@@ -1,4 +1,4 @@
-package au.com.aussie.hibernate.util;
+package au.com.aussie.util;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

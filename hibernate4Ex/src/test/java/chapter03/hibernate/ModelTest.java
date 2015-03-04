@@ -1,10 +1,10 @@
-package hibernate;
+package chapter03.hibernate;
 
 import org.testng.annotations.Test;
 
-import au.com.aussie.simple.Person;
-import au.com.aussie.simple.Ranking;
-import au.com.aussie.simple.Skill;
+import au.com.aussie.chapter03.simple.Person;
+import au.com.aussie.chapter03.simple.Ranking;
+import au.com.aussie.chapter03.simple.Skill;
 
 public class ModelTest {
 

@@ -1,4 +1,4 @@
-package hibernate;
+package chapter03.hibernate;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-import au.com.aussie.hibernate.domain.Message;
+import au.com.aussie.chapter03.hibernate.domain.MessageCh03;
 
 public class PersistenceTest {
 
@@ -32,7 +32,7 @@ public class PersistenceTest {
 	
 	@Test
 	public void saveMessage(){
-		Message message = new Message("Hello, world!");
+		MessageCh03 message = new MessageCh03("Hello, world!");
 		Session session = factory.openSession();
 		Transaction tx = session.beginTransaction();
 		session.persist(message);
@@ -45,7 +45,7 @@ public class PersistenceTest {
 		Session session = factory.openSession();
 		
 		@SuppressWarnings("unchecked")
-		List<Message> list = (List<Message>)session.createQuery(" from Message").list();
+		List<MessageCh03> list = (List<MessageCh03>)session.createQuery(" from Message").list();
 		
 		if(list.size() > 1){
 			Assert.fail("Message configuration in error; "
@@ -59,7 +59,7 @@ public class PersistenceTest {
 					+ " How did this test run?");
 		}
 		
-		for(Message message : list){
+		for(MessageCh03 message : list){
 			System.out.println(message);
 		}
 		

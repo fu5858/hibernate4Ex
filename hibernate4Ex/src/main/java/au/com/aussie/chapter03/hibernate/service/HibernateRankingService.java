@@ -1,4 +1,4 @@
-package au.com.aussie.hibernate.service;
+package au.com.aussie.chapter03.hibernate.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,14 +8,14 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import au.com.aussie.hibernate.dao.PersonDAO;
-import au.com.aussie.hibernate.dao.PersonDAOImpl;
-import au.com.aussie.hibernate.dao.SkillDAO;
-import au.com.aussie.hibernate.dao.SkillDAOImpl;
-import au.com.aussie.hibernate.domain.Person;
-import au.com.aussie.hibernate.domain.Ranking;
-import au.com.aussie.hibernate.domain.Skill;
-import au.com.aussie.hibernate.util.SessionUtil;
+import au.com.aussie.chapter03.hibernate.dao.PersonDAO;
+import au.com.aussie.chapter03.hibernate.dao.PersonDAOImpl;
+import au.com.aussie.chapter03.hibernate.dao.SkillDAO;
+import au.com.aussie.chapter03.hibernate.dao.SkillDAOImpl;
+import au.com.aussie.chapter03.hibernate.domain.Person;
+import au.com.aussie.chapter03.hibernate.domain.Ranking;
+import au.com.aussie.chapter03.hibernate.domain.Skill;
+import au.com.aussie.util.SessionUtil;
 
 public class HibernateRankingService implements RankingService {
 

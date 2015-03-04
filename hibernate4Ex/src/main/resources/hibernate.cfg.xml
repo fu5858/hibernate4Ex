@@ -37,15 +37,53 @@
 
     <!-- Echo all executed SQL to stdout -->
     <property name="show_sql">true</property>
-
+	<property name="format_sql">true</property>
+	<property name="use_sql_comments">true</property>
+	
     <!-- Drop and re-create the database schema on startup -->
     <property name="hbm2ddl.auto">create-drop</property>
     
-    <mapping class="au.com.aussie.hibernate.domain.Message"/>
-    <mapping class="au.com.aussie.hibernate.domain.Person"/>
-    <mapping class="au.com.aussie.hibernate.domain.Skill"/>
-    <mapping class="au.com.aussie.hibernate.domain.Ranking"/>
+    <!-- chapter 03 -->
     <!-- 
+    <mapping class="au.com.aussie.chapter03.hibernate.domain.MessageCh03"/>
+    <mapping class="au.com.aussie.chapter03.hibernate.domain.Person"/>
+    <mapping class="au.com.aussie.chapter03.hibernate.domain.Skill"/>
+    <mapping class="au.com.aussie.chapter03.hibernate.domain.Ranking"/>
      -->
+    
+    <!-- chapter 04 for broken -->
+    <!-- 
+    <mapping class="au.com.aussie.chapter04.broken.Message"/>
+    <mapping class="au.com.aussie.chapter04.broken.Email"/>
+     -->
+     <!-- chapter 04 for mapped -->
+    <!-- 
+    <mapping class="au.com.aussie.chapter04.mapped.Message"/>
+    <mapping class="au.com.aussie.chapter04.mapped.Email"/>
+    <mapping class="au.com.aussie.chapter04.model.SimpleObject"/>
+     -->
+
+    <!-- chapter 04 for ophanremoval -->
+    <!-- 
+    <mapping class="au.com.aussie.chapter04.orphan.Book"/>
+    <mapping class="au.com.aussie.chapter04.orphan.Library"/>
+     -->
+    
+    <!-- chapter 06 for Mapping with Annotations -->
+    <!-- 
+    <mapping class="au.com.aussie.chapter06.naturalid.SimpleNaturalIDEmployee"/>
+    <mapping class="au.com.aussie.chapter06.naturalid.Employee"/>
+     -->
+
+    <!-- chapter 07 for validate -->
+    <!-- 
+    <mapping class="au.com.aussie.chapter07.validated.ValidatedSimplePerson"/>
+    <mapping class="au.com.aussie.chapter07.validated.Coordinate"/>
+     -->
+    
+    <!-- chapter 09 for queries -->
+    <mapping class="au.com.aussie.chapter09.Supplier"/>
+    <mapping class="au.com.aussie.chapter09.Product"/>
+    <mapping class="au.com.aussie.chapter09.Software"/>
   </session-factory>
 </hibernate-configuration>

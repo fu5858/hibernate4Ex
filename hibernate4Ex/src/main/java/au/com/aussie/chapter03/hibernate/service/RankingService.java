@@ -1,8 +1,8 @@
-package au.com.aussie.hibernate.service;
+package au.com.aussie.chapter03.hibernate.service;
 
 import java.util.Map;
 
-import au.com.aussie.hibernate.domain.Person;
+import au.com.aussie.chapter03.hibernate.domain.Person;
 
 public interface RankingService {
 

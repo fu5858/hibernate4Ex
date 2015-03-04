@@ -1,4 +1,4 @@
-package au.com.aussie.simple;
+package au.com.aussie.chapter03.simple;
 
 public class Skill {
 

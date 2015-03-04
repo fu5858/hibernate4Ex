@@ -1,8 +1,8 @@
-package au.com.aussie.hibernate.dao;
+package au.com.aussie.chapter03.hibernate.dao;
 
 import org.hibernate.Session;
 
-import au.com.aussie.hibernate.domain.Skill;
+import au.com.aussie.chapter03.hibernate.domain.Skill;
 
 public interface SkillDAO {
 
